@@ -88,7 +88,7 @@
 			bindings = <
 			&kp ESC  &trans &trans  &kp FI_LPRN  &kp FI_RPRN    	    &kp INS  &kp HOME &kp PG_UP &kp END &kp CAPS
 			&sk TAB &trans  &trans  &sk FI_LCBR  &kp FI_RCBR 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT   &kp ENTER
-			&kp LCTRL  &kp LABK &kp RABK &kp FI_LBRC   &kp FI_RBRC      &kp DEL &kp LGUI &PG_DN &trans  &PRINTSCREEN
+			&kp LCTRL  &kp LT &kp GT &kp FI_LBRC   &kp FI_RBRC      &kp DEL &kp LGUI &PG_DN &trans  &PRINTSCREEN
 												&mo FNC &kp RALT        &trans &trans 
 			>;
 		};
