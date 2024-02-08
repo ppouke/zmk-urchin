@@ -63,7 +63,7 @@
 		// Base alpha layer
 		default_layer {
 			label = "Base";
-			bindings = i<
+			bindings = <
 			&kp Q &kp W &kp E &kp R &kp T                       &kp Y &kp U  &kp I     &kp O   &kp P 
 			&hm LCTRL A &kp S &hm LALT D &hm LSHIFT F &kp G     &kp H &hm RSHIFT J  &hm RALT K &kp L &hm RCTRL FI_ADIA
 			&kp Z &kp X &kp C &kp V &kp B                       &kp N &kp M  &kp FI_COMM &kp FI_DOT &kp FI_ODIA
