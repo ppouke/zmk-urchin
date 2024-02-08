@@ -65,7 +65,7 @@
 
 		// Numbers and high frequency symbols
 		sym_layer {
-			label = "SYM";
+			label = "Sym.";
 			bindings = <
 			&kp FI_EXLM &kp FI_DQUO &kp FI_HASH &kp FI_DLR &kp FI_PERC	    &kp FI_AMPR &kp FI_SLSH &kp FI_BSLS &kp FI_QUOT &kp FI_CIRC 
 			&kp N1 &kp N2 &kp N3 &kp N4 &kp N5                              &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
@@ -76,7 +76,7 @@
 
 		// Main modifiers and arrow keys
 		ext_layer {
-			label = "EXT";
+			label = "Mods";
 			bindings = <
 			&kp ESC  &trans &trans  &kp FI_LPRN  &kp FI_RPRN    	    &kp INS  &kp HOME &kp PG_UP &kp END &kp CAPS
 			&sk TAB &trans  &trans  &sk FI_LCBR  &kp FI_RCBR 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT   &kp ENTER
@@ -87,7 +87,7 @@
 
 		// Function keys with modifiers
 		fnc_layer {
-			label = "FNC";
+			label = "FRow";
 			bindings = <
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5                  &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 
 			&sk LALT &sk LGUI &sk LSHIFT &sk LCTRL &kp RALT     &kp F11 &kp F12  &kp RALT &trans &unstick
