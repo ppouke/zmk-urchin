@@ -21,13 +21,14 @@
 #define FI_LPRN LS(N8)    // (
 #define FI_RPRN LS(N9)    // )
 #define FI_EQL  LS(N0)    // =
-#define FI_QUES LS(PLUS) // ?
-#define FI_GRV  LS(EQUAL) // ` 
-#define FI_CIRC LS(RBRC) // ^  
-#define FI_RABK LS(BSLH) // > 
-#define FI_SCLN LS(COMMA) // ;
-#define FI_COLN LS(DOT)  // :
-#define FI_UNDS LS(MINUS) // _
+#define FI_QUES LS(FI_PLUS) // ?
+#define FI_GRV  LS(FI_ACUT) // ` (dead)
+#define FI_CIRC LS(FI_DIAE) // ^ (dead)
+#define FI_ASTR LS(FI_QUOT) // *
+#define FI_RABK LS(FI_LABK) // >
+#define FI_SCLN LS(FI_COMM) // ;
+#define FI_COLN LS(FI_DOT)  // :
+#define FI_UNDS LS(FI_MINS) // _
 #define FI_AT   RA(N2)    // @
 #define FI_PND  RA(N3)    // £
 #define FI_DLR  RA(N4)    // $
@@ -36,8 +37,9 @@
 #define FI_LBRC RA(N8)    // [
 #define FI_RBRC RA(N9)    // ]
 #define FI_RCBR RA(N0)    // }
-#define FI_BSLS RA(PLUS) // (backslash)
-#define FI_TILD RA(RBRC) // ~ (dead)
-#define FI_PIPE RA(BSLH) // |
+#define FI_BSLS RA(FI_PLUS) // (backslash)
+#define FI_TILD RA(FI_DIAE) // ~ (dead)
+#define FI_PIPE RA(FI_LABK) // |
 #define FI_MICR RA(M)    // µ
+
 
