@@ -25,11 +25,11 @@
 &mt {
     tapping_term_ms = <200>;
     quick_tap_ms = <200>;
-}
+};
 
 
 
-/ {
+{
 	behaviors {
 
 		// Enables holding the first mod-tap key
