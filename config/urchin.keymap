@@ -39,7 +39,7 @@
     
         hml: homerowLeft {
             compatible = "zmk, behavior-hold-tap";
-            #binding-cells <2>;
+            #binding-cells = <2>;
             flavor = "balanced";
 			tapping-term-ms = <280>;
 			quick-tap-ms = <175>;
@@ -52,7 +52,7 @@
 
         hmr: homerowRight {
             compatible = "zmk, behavior-hold-tap";
-            #binding-cells <2>;
+            #binding-cells = <2>;
             flavor = "balanced";
 			tapping-term-ms = <280>;
 			quick-tap-ms = <175>;
