@@ -103,8 +103,8 @@
 			label = "Sym.";
 			bindings = <
 			&kp FI_EXLM &kp FI_DQUO &kp FI_HASH &kp FI_DLR &kp FI_PERC	    &kp FI_SLSH &kp N7 &kp N8 &kp N9 &kp N0 
-			&kp FI_UNDS &kp FI_LABK &kp FI_LPRN &kp FI_LCBR &kp FI_LBRC     &kp FI_ASTR &kp N4 &kp N5 &kp N6 &kp FI_MINS
-			&kp FI_AMPR &kp FI_RABK &kp FI_RPRN &kp FI_RCBR  &kp FI_RBRC    &kp FI_EQL &kp N1 &kp N2 &kp N3 &kp FI_PLUS
+			&kp FI_UNDS &trans &kp FI_CIRC &kp FI_QUOT &kp FI_QUES     &kp FI_ASTR &kp N4 &kp N5 &kp N6 &kp FI_MINS
+			&kp FI_AMPR &trans &kp FI_BSLS &kp FI_TILD  &kp FI_AT    &kp FI_EQL &kp N1 &kp N2 &kp N3 &kp FI_PLUS
 														&trans &trans       &kp SPACE &mo FNC
 			>;
 		};
@@ -113,9 +113,9 @@
 		ext_layer {
 			label = "Mods";
 			bindings = <
-			&kp ESC  &trans &trans  &kp FI_QUOT  &kp FI_TILD    	    &kp INS  &kp HOME &kp PG_UP &kp END &kp BSPC
-			&kp TAB &trans  &trans  &kp FI_CIRC  &kp FI_QUES 			&kp LEFT &kp DOWN  &kp UP  &kp RIGHT   &kp ENTER
-			&kp LCTRL  &trans &kp FI_PIPE &kp FI_BSLS   &kp FI_AT      &kp DEL &kp LGUI &kp PG_DN &trans  &kp CAPS
+			&kp ESC  &trans &trans  &kp FI_LCBR  &kp FI_RCBR    	    &kp INS  &kp HOME &kp PG_UP &kp END &kp BSPC
+            &kp TAB &kp FI_LABK  &kp FI_RABK  &kp FI_LPRN  &kp FI_RPRN 	&kp LEFT &kp DOWN  &kp UP  &kp RIGHT   &kp ENTER
+			&kp LCTRL  &trans &kp FI_PIPE &kp FI_LBRC   &kp FI_RBRC     &kp DEL &kp LGUI &kp PG_DN &trans  &kp CAPS
 												&mo FNC &kp RALT        &trans &trans 
 			>;
 		};
