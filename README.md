@@ -12,7 +12,7 @@
 
 ## Keymap Cheat Sheet
   
-  ![layout](Images/UrchinLayout.png)
+  ![layout](Images/keymap.svg)
 
 </div>
 
